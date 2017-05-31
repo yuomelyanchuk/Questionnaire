@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+</head>
+<body>
+<form action="/Questionnaire" method="post">
+
+    First name: <input type="text" name="firstName">
+    Last name: <input type="text" name="lastName">
+    Age: <input type="number" name="age">
+
+
+    <fieldset>
+        <legend>You are using linux?</legend>
+        <input type="radio" name="os" value="true" checked="checked"/>yes<br />
+        <input type="radio" name="os" value="false" />no<br />
+    </fieldset>
+    <fieldset>
+        <legend>You are using a 64 bit version os?</legend>
+        <input type="radio" name="64bit" value="true" checked="checked" />yes<br />
+        <input type="radio" name="64bit" value="false" />no<br />
+    </fieldset>
+    <input type="submit" value="Submit now" />
+
+
+</form>
+
+</body>
+</html>
